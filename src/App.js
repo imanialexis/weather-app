@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
-import Titles from "./components/Titles"
-import Form from "./components/Form"
+import Titles from "./components/Titles";
+import Form from "./components/Form";
+import Weather from "./components/Weather";
+
+const API_KEY = process.env.REACT_APP_WEATHER_API
 
 class App extends Component {
   render() {
     return (
       <div>
-        {/* everything needs to be returned here */}
         <Titles /> 
         <Form />
+        <Weather />
       </div>
     );
   }

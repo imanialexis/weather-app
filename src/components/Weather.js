@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 
 
 
-class Form extends Component {
+class Weather extends Component {
     render() {
       return (
         <div>
-            <h1>Form Component</h1>
+            <h1>Weather Component</h1>
         </div>
       );
     }
   }
   
-  export default Form;
+  export default Weather;
